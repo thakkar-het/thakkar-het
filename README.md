@@ -13,9 +13,11 @@
   <a href="https://github.com/thakkar-het">
     <img src="https://img.shields.io/badge/GitHub-thakkar--het-181717?style=flat-square&logo=github" alt="GitHub">
   </a>
+<br>
   <a href="https://www.linkedin.com/in/thakkar--het">
     <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn">
   </a>
+<br>
   <a href="mailto:b25cs1080@iitj.ac.in">
     <img src="https://img.shields.io/badge/Email-Contact-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email">
   </a>
