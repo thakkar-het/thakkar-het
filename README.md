@@ -52,7 +52,7 @@ My approach is to understand the system, test its assumptions, investigate failu
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3>Othello RL Agent</h3>
+      <h3><a href="https://github.com/thakkar-het/Othello_Reinforcement_learning">Othello RL Agent</a></h3>
       <p><strong>Reinforcement Learning</strong></p>
       <p>An agent for the 8×8 Othello board game. After PPO did not produce satisfactory results, I switched to DQN and developed a stronger self-play-trained agent. The final interface supports playing against a human with either color.</p>
       <p><strong>Focus:</strong> Reward design, training diagnostics, and keeping reward and parameter scales suitable for learning.</p>
