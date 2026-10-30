@@ -25,7 +25,7 @@
 
 ## About
 
-I'm a second-year Computer Science and Engineering undergraduate at **IIT Jodhpur** with a **9.70/10 CGPA** through my first two semesters. I ranked **1st in Semester I and 2nd in Semester II** in my previous AI&DS cohort before changing branches to CSE.
+I'm a second-year Computer Science and Engineering undergraduate at **IIT Jodhpur** with a **9.70/10 CGPA** through my first two semesters. I ranked **1st in Semester I and 2nd in Semester II**.
 
 I enjoy working on problems that combine logical reasoning with implementation—from debugging reinforcement-learning experiments to building a physical robot that converts images into sketches. My current interests include **AI/ML, reinforcement learning, autonomous robotics, algorithms, AI for Science, and secure AI systems**.
 
@@ -82,8 +82,6 @@ Current work includes reading research papers, comparing design options, and dev
 **Core strengths**
 - **C / C++:** OOP, STL, memory and file handling, debugging
 - **Data Structures & Algorithms:** 250+ LeetCode problems solved; experience across easy, medium, and hard problems
-
-**Working knowledge**
 - **Python:** Practical use of libraries and project code; less independent debugging experience than in C/C++
 - **Machine Learning / Deep Learning:** Model training, interpreting results, and ML fundamentals
 - **Computer Vision:** OpenCV-based image processing and an image-to-robot-motion pipeline
@@ -104,8 +102,7 @@ Current work includes reading research papers, comparing design options, and dev
 ## GitHub
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=thakkar-het&show_icons=true&hide_border=true&rank_icon=github&theme=transparent" alt="GitHub statistics">
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=thakkar-het&layout=compact&hide_border=true&theme=transparent" alt="Most used languages">
+  <img height="165" src="https://github-stats-extended.vercel.app/api?username=thakkar-het&show_icons=true&hide_border=true&rank_icon=github&theme=transparent" alt="GitHub statistics">
 </p>
 
 ---
