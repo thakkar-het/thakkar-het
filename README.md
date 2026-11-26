@@ -5,7 +5,7 @@
 <h1 align="center">Het Thakkar</h1>
 
 <p align="center">
-  <strong>CSE Undergraduate @ IIT Jodhpur · Class of 2029</strong><br>
+  <big><strong>CSE Undergraduate @ IIT Jodhpur · Class of 2029</strong></big><br>
   Algorithms · Reinforcement Learning · AI/ML · Robotics
 </p>
 
@@ -33,39 +33,39 @@ I enjoy working on problems that combine logical reasoning with implementation�
 
 My approach is to understand the system, test its assumptions, investigate failures, and improve the implementation—not just make it run.
 
-## Selected Projects
+## Featured Projects
 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/thakkar-het/HiveMind-Multi_agent_reinforcement_learning">HiveMind</a></h3>
+      <h2><a href="https://github.com/thakkar-het/HiveMind-Multi_agent_reinforcement_learning">HiveMind</a></h2>
       <p><strong>Multi-Agent Reinforcement Learning</strong></p>
-      <p>A multi-agent reinforcement learning environment for <strong>four cooperative warehouse robots</strong> operating among randomly sized shelves and multiple resources. The agents must coordinate to deliver resources to a common depot in minimum time while avoiding collisions, with the project investigating whether <strong>emergent communication</strong> improves coordination and task performance.</p>
-      <p><strong>My contribution:</strong> Worked on the <strong>CNN-based observation feature extraction</strong> used by the policy and contributed across the environment, training, and evaluation pipeline. I also focused substantially on <strong>debugging unstable/non-converging training runs</strong>, using training curves, losses, rewards, and other TensorBoard diagnostics to identify and resolve issues. The project includes quantitative comparisons between communication-enabled and no-communication settings.</p>
-      <p><sub>Python · PyTorch · CNN · Recurrent PPO · LSTM · Stable-Baselines3 · TensorBoard</sub></p>
+      <p>A cooperative warehouse simulation with four robots, randomly sized shelves, multiple resources, collision avoidance, and a shared depot. The project investigates whether emergent communication improves coordination and task performance.</p>
+      <p><strong>My contribution:</strong> CNN-based observation feature extraction, work across the environment/training/evaluation pipeline, and substantial debugging of unstable training using TensorBoard diagnostics.</p>
+      <p><em>Python · PyTorch · CNN · Recurrent PPO · LSTM · Stable-Baselines3 · TensorBoard</em></p>
     </td>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/thakkar-het/Painting_Arm">Bob Ross Without ROS</a></h3>
+      <h2><a href="https://github.com/thakkar-het/Painting_Arm">Bob Ross Without ROS</a></h2>
       <p><strong>Computer Vision × Robotics</strong></p>
-      <p>A working 3-DOF robotic arm that converts an input image into a sketch. The custom pipeline covers image processing, stroke extraction, coordinate mapping, inverse kinematics, trajectory generation, and motion refinement. CV parameters can be tuned for different images and drawing preferences.</p>
-      <p><strong>Hardware:</strong> Dynamixel motors, U2D2, Raspberry Pi, Arduino Nano, and a pen-lift servo.</p>
-      <p><sub>Python · OpenCV · NumPy · Inverse Kinematics · Trajectory Planning · C++</sub></p>
+      <p>A working 3-DOF robotic arm that converts an input image into a sketch. The custom pipeline covers image processing, stroke extraction, coordinate mapping, inverse kinematics, trajectory generation, and motion refinement.</p>
+      <p><strong>Hardware:</strong> Dynamixel motors, U2D2, Raspberry Pi, Arduino Nano, and pen-lift servo.</p>
+      <p><em>Python · OpenCV · NumPy · Inverse Kinematics · Trajectory Planning · C++</em></p>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/thakkar-het/Othello_Reinforcement_learning">Othello RL Agent</a></h3>
+      <h2><a href="https://github.com/thakkar-het/Othello_Reinforcement_learning">Othello RL Agent</a></h2>
       <p><strong>Reinforcement Learning</strong></p>
       <p>An agent for the 8×8 Othello board game. After PPO did not produce satisfactory results, I switched to DQN and developed a stronger self-play-trained agent. The final interface supports playing against a human with either color.</p>
       <p><strong>Focus:</strong> Reward design, training diagnostics, and keeping reward and parameter scales suitable for learning.</p>
-      <p><sub>Python · Reinforcement Learning · DQN · Pygame</sub></p>
-      
+      <p><em>Python · DQN · Reinforcement Learning · Pygame</em></p>
     </td>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/thakkar-het/Communication-Protocol">DNA Link</a></h3>
+      <h2><a href="https://github.com/thakkar-het/Communication-Protocol">DNA Link</a></h2>
       <p><strong>Fault-Tolerant Microcontroller Communication</strong></p>
-      <p>A custom communication protocol inspired by DNA complementarity. Messages are encoded as bits and paired with their conjugate representation; mismatches trigger retransmission and reconstruction of affected bits. Tested between Arduino boards by deliberately introducing wire-level errors.</p>
-      <p><sub>Arduino · C++ · Bit-Level Encoding · Error Detection · Retransmission · Serial Communication</sub></p>
+      <p>A custom protocol inspired by DNA complementarity. Messages are encoded as bits with a conjugate representation; mismatches trigger retransmission and reconstruction of affected bits. Tested between Arduino boards by deliberately introducing wire-level errors.</p>
+      <p><strong>Focus:</strong> Bit-level encoding, error detection, retransmission, and serial communication.</p>
+      <p><em>Arduino · C++ · Bit-Level Encoding · Error Detection · Retransmission</em></p>
     </td>
   </tr>
 </table>
@@ -81,14 +81,12 @@ Current work includes reading research papers, comparing design options, and dev
 
 ## Technical Skills
 
-**Core strengths**
+### Core strengths
 - **C / C++:** OOP, STL, memory and file handling, debugging
-- **Data Structures & Algorithms:** 250+ LeetCode problems solved across easy, medium, and hard problems
-
-**Working knowledge**
-- **Python:** Practical project work and scientific/ML libraries; strongest programming experience remains in C/C++
-- **Machine Learning / Deep Learning:** ML fundamentals, model training, and result interpretation
-- **Computer Vision:** OpenCV-based image processing and end-to-end image-to-robot-motion work
+- **Data Structures & Algorithms:** 250+ LeetCode problems solved; experience across easy, medium, and hard problems
+- **Python:** Practical use of libraries and project code; less independent debugging experience than in C/C++
+- **Machine Learning / Deep Learning:** Model training, interpreting results, and ML fundamentals
+- **Computer Vision:** OpenCV-based image processing and an image-to-robot-motion pipeline
 - **Reinforcement Learning:** Q-learning, PPO, recurrent PPO with LSTM, and DQN; training diagnostics with TensorBoard
 - **Scientific Python:** NumPy, Pandas, Matplotlib, Seaborn
 - **Robotics & embedded systems:** Arduino, Dynamixel, hardware/software integration, and serial communication
@@ -112,5 +110,5 @@ Current work includes reading research papers, comparing design options, and dev
 ---
 
 <p align="center">
-  <em>Build it. Understand it. Find where it breaks. Improve it.</em>
+  <big><em>Build it. Understand it. Find where it breaks. Improve it.</em></big>
 </p>
