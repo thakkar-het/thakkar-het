@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/profile-banner.svg" alt="Het Thakkar — AI, Algorithms, Robotics" width="100%">
+  <img src="./assets/profile-banner.png" alt="Het Thakkar — AI, Algorithms, Robotics" width="100%">
 </p>
 
 <h1 align="center">Het Thakkar</h1>
@@ -33,16 +33,16 @@ I enjoy working on problems that combine logical reasoning with implementation�
 
 My approach is to understand the system, test its assumptions, investigate failures, and improve the implementation—not just make it run.
 
-## Featured Projects
+## Selected Projects
 
 <table>
   <tr>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/thakkar-het/HiveMind-Multi_agent_reinforcement_learning">HiveMind</a></h3>
       <p><strong>Multi-Agent Reinforcement Learning</strong></p>
-      <p>A cooperative warehouse-robot simulation with four agents that transport resources to a depot while avoiding collisions. The project explores emergent communication and compares performance with and without communication.</p>
-      <p><strong>My contribution:</strong> CNN-based feature extraction, debugging non-converging training runs, and contributions to environment, training, and evaluation work.</p>
-      <p><sub>Python · PyTorch · Recurrent PPO · LSTM · Stable-Baselines3 · TensorBoard</sub></p>
+      <p>A multi-agent reinforcement learning environment for <strong>four cooperative warehouse robots</strong> operating among randomly sized shelves and multiple resources. The agents must coordinate to deliver resources to a common depot in minimum time while avoiding collisions, with the project investigating whether <strong>emergent communication</strong> improves coordination and task performance.</p>
+      <p><strong>My contribution:</strong> Worked on the <strong>CNN-based observation feature extraction</strong> used by the policy and contributed across the environment, training, and evaluation pipeline. I also focused substantially on <strong>debugging unstable/non-converging training runs</strong>, using training curves, losses, rewards, and other TensorBoard diagnostics to identify and resolve issues. The project includes quantitative comparisons between communication-enabled and no-communication settings.</p>
+      <p><sub>Python · PyTorch · CNN · Recurrent PPO · LSTM · Stable-Baselines3 · TensorBoard</sub></p>
     </td>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/thakkar-het/Painting_Arm">Bob Ross Without ROS</a></h3>
@@ -59,7 +59,7 @@ My approach is to understand the system, test its assumptions, investigate failu
       <p>An agent for the 8×8 Othello board game. After PPO did not produce satisfactory results, I switched to DQN and developed a stronger self-play-trained agent. The final interface supports playing against a human with either color.</p>
       <p><strong>Focus:</strong> Reward design, training diagnostics, and keeping reward and parameter scales suitable for learning.</p>
       <p><sub>Python · Reinforcement Learning · DQN · Pygame</sub></p>
-      <p><em>Repository link will be added after the current work is complete.</em></p>
+      
     </td>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/thakkar-het/Communication-Protocol">DNA Link</a></h3>
@@ -83,10 +83,12 @@ Current work includes reading research papers, comparing design options, and dev
 
 **Core strengths**
 - **C / C++:** OOP, STL, memory and file handling, debugging
-- **Data Structures & Algorithms:** 250+ LeetCode problems solved; experience across easy, medium, and hard problems
-- **Python:** Practical use of libraries and project code; less independent debugging experience than in C/C++
-- **Machine Learning / Deep Learning:** Model training, interpreting results, and ML fundamentals
-- **Computer Vision:** OpenCV-based image processing and an image-to-robot-motion pipeline
+- **Data Structures & Algorithms:** 250+ LeetCode problems solved across easy, medium, and hard problems
+
+**Working knowledge**
+- **Python:** Practical project work and scientific/ML libraries; strongest programming experience remains in C/C++
+- **Machine Learning / Deep Learning:** ML fundamentals, model training, and result interpretation
+- **Computer Vision:** OpenCV-based image processing and end-to-end image-to-robot-motion work
 - **Reinforcement Learning:** Q-learning, PPO, recurrent PPO with LSTM, and DQN; training diagnostics with TensorBoard
 - **Scientific Python:** NumPy, Pandas, Matplotlib, Seaborn
 - **Robotics & embedded systems:** Arduino, Dynamixel, hardware/software integration, and serial communication
